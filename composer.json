@@ -14,5 +14,6 @@
             "email": "itsupport.vbdev@gmail.com"
         }
     ],
+    "minimum-stability": "stable",
     "require": {}
 }
