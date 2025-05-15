@@ -125,4 +125,14 @@ class DataTable extends Component
             'visibleColumns' => $this->getVisibleColumns(),
         ]);
     }
+
+    public function __toString()
+    {
+        return view('advanced-datatable::livewire.data-table', [
+            'model' => $this->model,
+            'columns' => $this->columns,
+            'enableFeatures' => $this->enableFeatures,
+            'availableFilters' => $this->availableFilters
+        ])->render();
+    }
 }
