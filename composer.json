@@ -1,0 +1,18 @@
+{
+    "name": "kataknyulink/advanced-datatable",
+    "description": "Livewire Datatable with advanced feature",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Kataknyulink\\AdvancedDatatable\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Katak Nyulink",
+            "email": "itsupport.vbdev@gmail.com"
+        }
+    ],
+    "require": {}
+}
