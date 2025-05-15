@@ -120,7 +120,7 @@ class DataTable extends Component
 
     public function render()
     {
-        return view('AdvancedDataTable::livewire.data-table', [
+        return view('advanced-datatable::livewire.data-table', [
             'rows' => $this->rows,
             'visibleColumns' => $this->getVisibleColumns(),
         ]);
