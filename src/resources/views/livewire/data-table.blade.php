@@ -201,13 +201,13 @@
 
     <!-- Data Display -->
     @if($displayView === 'table')
-        @include('AdvancedDataTable::livewire.partials.table-view')
+        @include('advanced-datatable::livewire.partials.table-view')
     @else
-        @include('AdvancedDataTable::livewire.partials.card-view')
+        @include('advanced-datatable::livewire.partials.card-view')
     @endif
 
     <!-- Pagination -->
     @if($enableFeatures['pagination'])
-        {{ $rows->links('AdvancedDataTable::livewire.partials.pagination') }}
+        {{ $rows->links('advanced-datatable::livewire.partials.pagination') }}
     @endif
 </div>
